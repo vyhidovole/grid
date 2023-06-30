@@ -1,0 +1,79 @@
+.main {
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-template-areas:
+        'a1 a1 a2 a2 a3 a3 a5 a5'
+        'a1 a1 a2 a2 a3 a3 a5 a5'
+        'a4 a4 a4 a4 a3 a3 a8 a8'
+        'a4 a4 a4 a4 a3 a3 a8 a8'
+        'a6 a6 a6 a6 a3 a3 a8 a8'
+        'a6 a6 a6 a6 a7 a7 a8 a8'
+        'a6 a6 a6 a6 a7 a7 a8 a8'
+        'a6 a6 a6 a6 a9 a9 a9 a9';
+    height: 650px;
+    width: 800px;
+    grid-gap: 5px;
+    padding: 10px;
+    margin: auto;
+
+}
+
+
+
+
+
+.zoon1 {
+
+    grid-area: a1;
+    background-color: rgb(131, 37, 220);
+}
+
+.zoon2 {
+    grid-area: a2;
+    background-color: rgb(224, 194, 18);
+}
+
+.zoon3 {
+    grid-area: a3;
+    background-color: rgb(198, 135, 19);
+}
+
+.zoon4 {
+    grid-area: a4;
+    background-color: rgb(228, 21, 21);
+}
+
+.zoon5 {
+
+    grid-area: a5;
+    background-color: rgba(49, 68, 205, 0.575);
+}
+
+.zoon6 {
+    grid-area: a6;
+    background-color: rgb(29, 198, 52);
+}
+
+.zoon7 {
+    grid-area: a7;
+    background-color: rgb(0, 200, 255);
+}
+
+.zoon8 {
+    grid-area: a8;
+    background-color: rgb(220, 30, 160);
+}
+
+.zoon9 {
+    grid-area: a9;
+    background-color: rgb(144, 0, 255);
+}
+
+.main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
